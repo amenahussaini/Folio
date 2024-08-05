@@ -1,0 +1,37 @@
+.about-descr p {
+    font-family: "Poppins", helvetica !important;
+    font-size: 1.7rem !important;
+    line-height: 1.5;
+    max-width: none !important;
+}
+
+#about {
+    background: transparent;
+    padding-top: 150px;
+}
+
+.profile {
+    background: aliceblue;
+    line-height: 0;
+    display: inline-block;
+    margin: 5px;
+    border: .5rem solid rgba(200, 200, 200, 0.4);
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    transition: linear 0.25s;
+    height: 328px;
+    width: 328px;
+    padding: 25px;
+}
+
+.profile-bio {
+    height: 100%;
+    text-align: center;
+      /* display: flex;
+      align-items: center;
+      justify-content: center; */
+  }
+
+.profile-bio svg {
+    /* border-radius: 50%; */
+}

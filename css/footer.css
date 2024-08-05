@@ -1,0 +1,88 @@
+#footer {
+    padding: 3.5rem 0 0.5rem;
+    background: url("../img/white-bg.jpg");
+    background-size: cover;
+    width: 100%;
+  }
+
+  #footer .logo {
+    display: inline-block;
+    font-size: 28px;
+  }
+
+  #footer .logo-circle {
+    display: inline-block;
+  }
+
+  #footer p {
+    margin: 0;
+    display: inline-block;
+  }
+
+  #footer ul {
+    margin: 2.5rem 0 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  #footer .social-text {
+    font-family: 'Poppins', sans-serif;
+    color: #B90E0A;
+    color: #292929;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  #footer ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #292929;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+
+  #footer .text-center {
+    display: block;
+    margin: 3rem auto 0;
+  }
+
+  .social-circle {
+    font-size: 2rem;
+    color: #B90E0A;
+  }
+
+  .social-circle svg {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 35em) {
+    #footer .logo {
+      font-size: 2rem;
+    }
+
+    .social-circle {
+      font-size: 2.5rem;
+    }
+
+    .social-circle svg {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+}
